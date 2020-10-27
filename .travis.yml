@@ -9,7 +9,7 @@ android:
   components:
     - build-tools-29.0.2
 
-  licences:
+  licenses:
 
 
 before_install:
