@@ -70,6 +70,24 @@ public class CityList {
     }
 
     /**
+     * Cheater class to fulfil lab requirements
+     * @param city
+     *      Candidate city to delete
+     */
+    public void remove(City city) {
+        if (!hasCity(city)) {
+            throw new IllegalArgumentException();
+        }
+
+        for (City c : cities) {
+            if (c.compareTo(city) == 0){
+                cities.remove(c);
+                break;
+            }
+        }
+    }
+
+    /**
      * Return the size of the city list
      * @return
      *      Size of city list
