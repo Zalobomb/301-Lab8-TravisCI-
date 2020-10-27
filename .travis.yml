@@ -10,7 +10,7 @@ android:
     - build-tools-29.0.2
     - android-29
 
-  licences:
+  licenses:
 
 
 before_install:
